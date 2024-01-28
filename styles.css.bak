@@ -1,0 +1,41 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://hospitalsantamaria.com.ec/media/slideshow/slide2024011116252773346.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta la altura de la imagen al 100% del viewport height */
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una línea */
+    justify-content: space-around; /* Espaciado uniforme entre los elementos */
+    margin: 20px;
+}
+
+#gestionAsistencia,
+#asistencia {
+    flex: 1;
+    margin: 20px;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

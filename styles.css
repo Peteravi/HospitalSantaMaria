@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://hospitalsantamaria.com.ec/media/slideshow/slide2024011116252773346.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000; /* Cambiado a negro el color del texto en la imagen de fondo */
+}
+
+h1 {
+    text-align: center;
+    padding: 20px; /* Agrega espacio alrededor del texto */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Ajustado el color de la sombra del texto */
+    display: inline; /* Hace que el h1 sea mostrado en línea */
+}
+
+#asistencia {
+    color: #ffffff; /* Cambiado a blanco el color del texto de asistencia */
+    margin-left: 10px; /* Espacio entre "Gestión de Asistencia" y "Asistencia" */
+}
+
+form {
+    margin: 20px auto; /* Centra el formulario */
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejorar la legibilidad */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Agrega transición de color al hacer hover */
+}
+
+button:hover {
+    background-color: #45a049;
+}
